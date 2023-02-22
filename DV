@@ -1,0 +1,13 @@
+class C:
+    def __init__(self):
+        ....
+
+    @staticmethod
+    def static_method(args):
+        ....
+
+    def normal_method(parameters):
+        ....
+
+result = C.static_method(parameters)
+result = obj.normal_method(parameters)
